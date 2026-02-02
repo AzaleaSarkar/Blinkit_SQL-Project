@@ -30,6 +30,7 @@ NOTE: Derived metrics such as revenue and AOV are calculated using SQL queries, 
 
 # Order Analysis
 5.How many orders are On Time vs Slightly Delayed?
+
 6.What is the average number of items per order?
 7.Which orders have order value above average?
 8.What is the distribution of order sizes (Small / Medium / Large)?
