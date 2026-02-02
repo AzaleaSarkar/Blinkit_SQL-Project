@@ -11,11 +11,17 @@ The database is designed using relational modeling principles with primary and f
 
 # Tables Used
 blinkit_customers – customer demographics and segmentation
+
 blinkit_products – product catalog and pricing details
+
 blinkit_orders – order-level transactional data
+
 blinkit_order_items – item-level order details
+
 blinkit_delivery_performance – delivery metrics and delays
+
 blinkit_inventory – daily inventory movement
+
 blinkit_marketing_performance – campaign-level marketing data
 
 NOTE: Derived metrics such as revenue and AOV are calculated using SQL queries, not stored in tables.
@@ -57,11 +63,17 @@ NOTE: Derived metrics such as revenue and AOV are calculated using SQL queries, 
 
 # Key SQL Concepts Used
 INNER JOIN across multiple tables
+
 Aggregate functions: SUM, AVG, COUNT
+
 Conditional logic using CASE WHEN
+
 Common Table Expressions (CTEs)
+
 Subqueries for order-level aggregation
+
 Composite Primary Keys
+
 Business-rule filtering (e.g., Delivered / On Time orders)
 
 # Revenue Calculation Approach
@@ -71,25 +83,36 @@ SUM(order_items.quantity * order_items.unit_price)
 
 This approach is preferred for:
 1.Product-level revenue analysis
+
 2.Customer spending analysis
+
 3.Avoiding reliance on pre-aggregated fields
 
 # Tools & Technologies
 MySQL
+
 MySQL Workbench
+
 Kaggle Dataset
+
 GitHub
 
 # Insights Generated
 1.Revenue is concentrated among high-value repeat customers
+
 2.A small percentage of customers contribute a disproportionate share of revenue
+
 3.Certain stores consistently handle higher order volumes
+
 4.Delivery performance has a measurable impact on order completion
 
 # Why This Project?
 This project showcases:
+
 1.Practical SQL for analytics
+
 2.Real-world data modeling
+
 3.Business-oriented thinking
 
 # Project Structure
