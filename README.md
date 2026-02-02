@@ -2,7 +2,9 @@
 # Project Overview
 
 This project is an end-to-end SQL-based data analysis of a Blinkit-style quick-commerce platform.
+
 The objective is to analyze sales performance, customer behavior, and order trends using a normalized relational database and business-focused SQL queries.
+
 The project demonstrates real-world SQL skills, including schema design, joins, aggregations, conditional logic, and CTEs.
 
 # Database Schema
@@ -118,8 +120,11 @@ This project showcases:
 # Project Structure
 blinkit-sql-analysis/
 │
+
 ├── schema.sql          # Database schema and table creation
+
 ├── queries.sql         # Business analysis SQL queries
+
 ├── README.md           # Project documentation
 
 # Author
